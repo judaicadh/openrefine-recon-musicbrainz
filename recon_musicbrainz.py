@@ -21,7 +21,7 @@ Setup:
     export MUSICBRAINZ_CONTACT="you@example.org"      # optional
     python recon_musicbrainz.py
     # OpenRefine -> Reconcile -> Add standard service ->
-    #   http://localhost:8767/reconcile
+    #   http://localhost:8768/reconcile
 
 In the reconciliation dialog, bind columns to properties by typing the
 property name (artist, year, label, catno, ...) in the "As property" box.
@@ -50,7 +50,7 @@ from flask import Flask, request, jsonify
 from rapidfuzz import fuzz
 
 HOST = "0.0.0.0"
-PORT = 8767
+PORT = 8768
 SERVICE_NAME = "MusicBrainz"
 CONTACT = os.environ.get("MUSICBRAINZ_CONTACT", "https://shira.wikibase.cloud")
 USER_AGENT = f"ShiraOpenRefineRecon/1.0 ( {CONTACT} )"

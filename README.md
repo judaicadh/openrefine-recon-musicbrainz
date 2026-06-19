@@ -22,7 +22,7 @@ python recon_musicbrainz.py
 ```
 
 OpenRefine → Reconcile → Add standard service →
-`http://localhost:8767/reconcile`
+`http://localhost:8768/reconcile`
 
 ## Usage notes
 
