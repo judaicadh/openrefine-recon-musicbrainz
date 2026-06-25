@@ -5,8 +5,8 @@ for [MusicBrainz](https://musicbrainz.org) — releases, release groups, artists
 labels, and recordings — with supporting columns bound as **structured Lucene
 search fields**, not just fuzzy hints.
 
-Built for [Shira](https://shira.wikibase.cloud) (Jewish & Yiddish LP recordings,
-Penn Libraries Judaica DH), generic for any music catalog. A companion to
+Built for [Shira](https://shira.wikibase.cloud) a project to highlight Jewish sound collections from
+Penn Libraries, A companion to
 [openrefine-recon-discogs](https://github.com/judaicadh/openrefine-recon-discogs).
 
 ## Quick start
